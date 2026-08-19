@@ -3,7 +3,7 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Computer+Science+Student;Full-Stack+Web+Developer;Building+with+AI+%2B+Node.js;Exploring+Hugging+Face+Inference" alt="Typing SVG" />
 </h1>
 
-- 🌱 I’m currently learning **OpenClaw**
+- 🌱 I’m currently learning **Docker**
 
 - 💬 Ask me about **Move Semantics, Pointer Ownership, and Memory Management**
   
