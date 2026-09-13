@@ -14,7 +14,7 @@
 
 <h2>Technologies</h2>
 
-[![My Skills](https://skillicons.dev/icons?i=cpp,cs,java,py,js,ts,php,html,css,tailwind,bootstrap,react,nextjs,redux,vite,flask,dotnet,express,figma,unreal,unity,bash,anaconda,regex,npm,pytorch,powershell,nodejs,postman,prisma,netlify,stackoverflow,selenium,postgresql,sqlite,mysql,apple,linux,ubuntu,windows,git,replit&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cpp,cs,java,py,js,ts,php,html,css,tailwind,bootstrap,react,nextjs,redux,vite,flask,dotnet,express,figma,unreal,unity,bash,anaconda,regex,npm,pytorch,powershell,nodejs,postman,prisma,docker,netlify,stackoverflow,selenium,postgresql,sqlite,mysql,apple,linux,ubuntu,windows,git,replit&theme=dark)](https://skillicons.dev)
 
 <div align="center">
   <picture>
