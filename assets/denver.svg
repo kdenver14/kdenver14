@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="t d">
+<title id="t">denver.cpp</title>
+<desc id="d">A code editor typing a short C++ program that moves a unique_ptr, then a terminal compiling and running it; it prints "shipped".</desc>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace;font-size:13px;fill:#c9d1d9}
+.num{fill:#6e7681}
+.cover{fill:#0d1117;transform:translateX(600px)}
+.title{fill:#8b949e;font-size:12px}
+.label{fill:#8b949e;font-size:10px;letter-spacing:1.2px}
+.a{animation-duration:19.85s;animation-iteration-count:infinite;animation-timing-function:step-end}
+.all{animation:fade 19.85s linear infinite}
+.caret{transform:translate(35.6px,389px);animation:caret 19.85s linear infinite}
+.blink{animation:blink 19.85s step-end infinite}
+@keyframes n0{0%{opacity:0}3.5264%{opacity:1}100%{opacity:1}}
+@keyframes c0{0%{transform:translateX(0);animation-timing-function:step-end}3.5264%{transform:translateX(2.0px);animation-timing-function:steps(18,end)}4.7053%{transform:translateX(142.4px);animation-timing-function:step-end}4.7254%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n1{0%{opacity:0}5.2091%{opacity:1}100%{opacity:1}}
+@keyframes c1{0%{transform:translateX(0);animation-timing-function:step-end}5.2091%{transform:translateX(2.0px);animation-timing-function:steps(17,end)}6.3224%{transform:translateX(134.6px);animation-timing-function:step-end}6.3426%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n2{0%{opacity:0}6.8262%{opacity:1}100%{opacity:1}}
+@keyframes c2{0%{transform:translateX(0);animation-timing-function:step-end}6.8262%{transform:translateX(2.0px);animation-timing-function:steps(18,end)}8.0050%{transform:translateX(142.4px);animation-timing-function:step-end}8.0252%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n3{0%{opacity:0}8.5088%{opacity:1}100%{opacity:1}}
+@keyframes n4{0%{opacity:0}9.3149%{opacity:1}100%{opacity:1}}
+@keyframes c4{0%{transform:translateX(0);animation-timing-function:step-end}9.3149%{transform:translateX(2.0px);animation-timing-function:steps(50,end)}12.5894%{transform:translateX(392.0px);animation-timing-function:step-end}12.6096%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n5{0%{opacity:0}13.0932%{opacity:1}100%{opacity:1}}
+@keyframes n6{0%{opacity:0}13.8992%{opacity:1}100%{opacity:1}}
+@keyframes c6{0%{transform:translateX(0);animation-timing-function:step-end}13.8992%{transform:translateX(2.0px);animation-timing-function:steps(12,end)}14.6851%{transform:translateX(95.6px);animation-timing-function:step-end}14.7053%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n7{0%{opacity:0}15.1889%{opacity:1}100%{opacity:1}}
+@keyframes c7{0%{transform:translateX(0);animation-timing-function:step-end}15.1889%{transform:translateX(33.2px);animation-timing-function:steps(43,end)}18.0050%{transform:translateX(368.6px);animation-timing-function:step-end}18.0252%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n8{0%{opacity:0}18.5088%{opacity:1}100%{opacity:1}}
+@keyframes c8{0%{transform:translateX(0);animation-timing-function:step-end}18.5088%{transform:translateX(33.2px);animation-timing-function:steps(55,end)}22.1108%{transform:translateX(462.2px);animation-timing-function:step-end}22.1310%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n9{0%{opacity:0}22.6146%{opacity:1}100%{opacity:1}}
+@keyframes n10{0%{opacity:0}23.4207%{opacity:1}100%{opacity:1}}
+@keyframes c10{0%{transform:translateX(0);animation-timing-function:step-end}23.4207%{transform:translateX(33.2px);animation-timing-function:steps(56,end)}27.0882%{transform:translateX(470.0px);animation-timing-function:step-end}27.1083%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n11{0%{opacity:0}27.5919%{opacity:1}100%{opacity:1}}
+@keyframes c11{0%{transform:translateX(0);animation-timing-function:step-end}27.5919%{transform:translateX(33.2px);animation-timing-function:steps(23,end)}29.0982%{transform:translateX(212.6px);animation-timing-function:step-end}29.1184%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes n12{0%{opacity:0}29.6020%{opacity:1}100%{opacity:1}}
+@keyframes c12{0%{transform:translateX(0);animation-timing-function:step-end}29.6020%{transform:translateX(2.0px);animation-timing-function:steps(1,end)}29.6675%{transform:translateX(9.8px);animation-timing-function:step-end}29.6877%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes p1{0%{opacity:0}32.4383%{opacity:1}100%{opacity:1}}
+@keyframes o1{0%{opacity:0}46.1008%{opacity:1}100%{opacity:1}}
+@keyframes p2{0%{opacity:0}47.3602%{opacity:1}100%{opacity:1}}
+@keyframes cc{0%{transform:translateX(0);animation-timing-function:step-end}34.2015%{transform:translateX(0);animation-timing-function:steps(63,end)}41.8186%{transform:translateX(493.4px);animation-timing-function:step-end}41.8388%{transform:translateX(600px)}100%{transform:translateX(600px)}}
+@keyframes caret{0%{transform:translate(52.0px,49px);animation-timing-function:step-end}3.5264%{transform:translate(52.0px,49px);animation-timing-function:steps(18,end)}4.7053%{transform:translate(192.4px,49px);animation-timing-function:step-end}5.2091%{transform:translate(52.0px,69px);animation-timing-function:steps(17,end)}6.3224%{transform:translate(184.6px,69px);animation-timing-function:step-end}6.8262%{transform:translate(52.0px,89px);animation-timing-function:steps(18,end)}8.0050%{transform:translate(192.4px,89px);animation-timing-function:step-end}8.5088%{transform:translate(52.0px,109px);animation-timing-function:step-end}9.3149%{transform:translate(52.0px,129px);animation-timing-function:steps(50,end)}12.5894%{transform:translate(442.0px,129px);animation-timing-function:step-end}13.0932%{transform:translate(52.0px,149px);animation-timing-function:step-end}13.8992%{transform:translate(52.0px,169px);animation-timing-function:steps(12,end)}14.6851%{transform:translate(145.6px,169px);animation-timing-function:step-end}15.1889%{transform:translate(83.2px,189px);animation-timing-function:steps(43,end)}18.0050%{transform:translate(418.6px,189px);animation-timing-function:step-end}18.5088%{transform:translate(83.2px,209px);animation-timing-function:steps(55,end)}22.1108%{transform:translate(512.2px,209px);animation-timing-function:step-end}22.6146%{transform:translate(52.0px,229px);animation-timing-function:step-end}23.4207%{transform:translate(83.2px,249px);animation-timing-function:steps(56,end)}27.0882%{transform:translate(520.0px,249px);animation-timing-function:step-end}27.5919%{transform:translate(83.2px,269px);animation-timing-function:steps(23,end)}29.0982%{transform:translate(262.6px,269px);animation-timing-function:step-end}29.6020%{transform:translate(52.0px,289px);animation-timing-function:steps(1,end)}29.6675%{transform:translate(59.8px,289px);animation-timing-function:step-end}32.4383%{transform:translate(35.6px,349px);animation-timing-function:step-end}34.2015%{transform:translate(35.6px,349px);animation-timing-function:steps(63,end)}41.8186%{transform:translate(527.0px,349px);animation-timing-function:step-end}42.7254%{transform:translate(20.0px,369px);animation-timing-function:step-end}46.1008%{transform:translate(20.0px,389px);animation-timing-function:step-end}47.3602%{transform:translate(35.6px,389px)}100%{transform:translate(35.6px,389px)}}
+@keyframes blink{0.0000%{opacity:1}2.6700%{opacity:0}3.5264%{opacity:1}32.3375%{opacity:0}34.2015%{opacity:1}44.4887%{opacity:0}47.1587%{opacity:1}49.8287%{opacity:0}52.4987%{opacity:1}55.1688%{opacity:0}57.8388%{opacity:1}60.5088%{opacity:0}63.1788%{opacity:1}65.8489%{opacity:0}68.5189%{opacity:1}71.1889%{opacity:0}73.8589%{opacity:1}76.5290%{opacity:0}79.1990%{opacity:1}81.8690%{opacity:0}84.5390%{opacity:1}87.2091%{opacity:0}89.8791%{opacity:1}92.5491%{opacity:0}95.2191%{opacity:1}97.8892%{opacity:0}100%{opacity:0}}
+@keyframes fade{0%{opacity:1}97.7330%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.a,.all,.caret,.blink{animation:none}}
+</style>
+<defs><clipPath id="win"><rect x="0.5" y="0.5" width="599" height="419" rx="10"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="599" height="419" rx="10" fill="#0d1117" stroke="#30363d"/>
+<g clip-path="url(#win)">
+<rect x="1" y="1" width="598" height="34" fill="#161b22"/>
+<line x1="1" y1="34.5" x2="599" y2="34.5" stroke="#30363d"/>
+<circle cx="20" cy="17.5" r="5.5" fill="#ff5f57"/>
+<circle cx="38" cy="17.5" r="5.5" fill="#febc2e"/>
+<circle cx="56" cy="17.5" r="5.5" fill="#28c840"/>
+<text class="title" x="300.0" y="22.0" text-anchor="middle">denver.cpp</text>
+<line x1="1" y1="316.5" x2="599" y2="316.5" stroke="#30363d"/>
+<text class="label" x="20" y="336">TERMINAL</text>
+<line x1="20" y1="341.5" x2="82" y2="341.5" stroke="#58a6ff"/>
+<g class="all">
+<text class="num a" style="animation-name:n0" x="38" y="60" text-anchor="end">1</text>
+<text y="60" xml:space="preserve"><tspan x="52.0" fill="#ff7b72">#include</tspan><tspan x="122.2" fill="#a5d6ff">&lt;cassert&gt;</tspan></text>
+<rect class="cover a" style="animation-name:c0" x="50" y="46" width="550" height="20"/>
+<text class="num a" style="animation-name:n1" x="38" y="80" text-anchor="end">2</text>
+<text y="80" xml:space="preserve"><tspan x="52.0" fill="#ff7b72">#include</tspan><tspan x="122.2" fill="#a5d6ff">&lt;memory&gt;</tspan></text>
+<rect class="cover a" style="animation-name:c1" x="50" y="66" width="550" height="20"/>
+<text class="num a" style="animation-name:n2" x="38" y="100" text-anchor="end">3</text>
+<text y="100" xml:space="preserve"><tspan x="52.0" fill="#ff7b72">#include</tspan><tspan x="122.2" fill="#a5d6ff">&lt;utility&gt;</tspan></text>
+<rect class="cover a" style="animation-name:c2" x="50" y="86" width="550" height="20"/>
+<text class="num a" style="animation-name:n3" x="38" y="120" text-anchor="end">4</text>
+<text class="num a" style="animation-name:n4" x="38" y="140" text-anchor="end">5</text>
+<text y="140" xml:space="preserve"><tspan x="52.0" fill="#ff7b72">struct</tspan><tspan x="106.6" fill="#ffa657">Project</tspan><tspan x="169.0" fill="#c9d1d9">{</tspan><tspan x="184.6" fill="#ff7b72">int</tspan><tspan x="215.8" fill="#d2a8ff">ship</tspan><tspan x="247.0" fill="#c9d1d9">()</tspan><tspan x="270.4" fill="#ff7b72">const</tspan><tspan x="317.2" fill="#c9d1d9">{</tspan><tspan x="332.8" fill="#ff7b72">return</tspan><tspan x="387.4" fill="#79c0ff">0</tspan><tspan x="395.2" fill="#c9d1d9" xml:space="preserve">; } };</tspan></text>
+<rect class="cover a" style="animation-name:c4" x="50" y="126" width="550" height="20"/>
+<text class="num a" style="animation-name:n5" x="38" y="160" text-anchor="end">6</text>
+<text class="num a" style="animation-name:n6" x="38" y="180" text-anchor="end">7</text>
+<text y="180" xml:space="preserve"><tspan x="52.0" fill="#ff7b72">int</tspan><tspan x="83.2" fill="#d2a8ff">main</tspan><tspan x="114.4" fill="#c9d1d9" xml:space="preserve">() {</tspan></text>
+<rect class="cover a" style="animation-name:c6" x="50" y="166" width="550" height="20"/>
+<text class="num a" style="animation-name:n7" x="38" y="200" text-anchor="end">8</text>
+<text y="200" xml:space="preserve"><tspan x="83.2" fill="#ff7b72">auto</tspan><tspan x="122.2" fill="#c9d1d9" xml:space="preserve">draft   = std::</tspan><tspan x="239.2" fill="#d2a8ff">make_unique</tspan><tspan x="325.0" fill="#c9d1d9">&lt;</tspan><tspan x="332.8" fill="#ffa657">Project</tspan><tspan x="387.4" fill="#c9d1d9">&gt;();</tspan></text>
+<rect class="cover a" style="animation-name:c7" x="50" y="186" width="550" height="20"/>
+<text class="num a" style="animation-name:n8" x="38" y="220" text-anchor="end">9</text>
+<text y="220" xml:space="preserve"><tspan x="83.2" fill="#ff7b72">auto</tspan><tspan x="122.2" fill="#c9d1d9" xml:space="preserve">shipped = std::</tspan><tspan x="239.2" fill="#d2a8ff">move</tspan><tspan x="270.4" fill="#c9d1d9">(draft);</tspan><tspan x="356.2" fill="#8b949e" xml:space="preserve">// moved, not copied</tspan></text>
+<rect class="cover a" style="animation-name:c8" x="50" y="206" width="550" height="20"/>
+<text class="num a" style="animation-name:n9" x="38" y="240" text-anchor="end">10</text>
+<text class="num a" style="animation-name:n10" x="38" y="260" text-anchor="end">11</text>
+<text y="260" xml:space="preserve"><tspan x="83.2" fill="#d2a8ff">assert</tspan><tspan x="130.0" fill="#c9d1d9" xml:space="preserve">(draft ==</tspan><tspan x="208.0" fill="#79c0ff">nullptr</tspan><tspan x="262.6" fill="#c9d1d9">);</tspan><tspan x="356.2" fill="#8b949e" xml:space="preserve">// source is now null</tspan></text>
+<rect class="cover a" style="animation-name:c10" x="50" y="246" width="550" height="20"/>
+<text class="num a" style="animation-name:n11" x="38" y="280" text-anchor="end">12</text>
+<text y="280" xml:space="preserve"><tspan x="83.2" fill="#ff7b72">return</tspan><tspan x="137.8" fill="#c9d1d9">shipped-&gt;</tspan><tspan x="208.0" fill="#d2a8ff">ship</tspan><tspan x="239.2" fill="#c9d1d9">();</tspan></text>
+<rect class="cover a" style="animation-name:c11" x="50" y="266" width="550" height="20"/>
+<text class="num a" style="animation-name:n12" x="38" y="300" text-anchor="end">13</text>
+<text y="300" xml:space="preserve"><tspan x="52.0" fill="#c9d1d9">}</tspan></text>
+<rect class="cover a" style="animation-name:c12" x="50" y="286" width="550" height="20"/>
+<text class="a" style="animation-name:p1;fill:#58a6ff" x="20" y="360">$</text>
+<text x="35.6" y="360" xml:space="preserve">g++ -std=c++17 denver.cpp -o denver &amp;&amp; ./denver &amp;&amp; echo shipped</text>
+<rect class="cover a" style="animation-name:cc" x="33.6" y="346" width="566.4" height="20"/>
+<text class="a" style="animation-name:o1;fill:#3fb950" x="20" y="380">shipped</text>
+<text class="a" style="animation-name:p2;fill:#58a6ff" x="20" y="400">$</text>
+<g class="caret"><rect class="blink" width="7" height="15" rx="1" fill="#58a6ff"/></g>
+</g>
+</g>
+</svg>
