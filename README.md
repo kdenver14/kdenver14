@@ -16,7 +16,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=cpp,cs,java,py,js,ts,php,html,css,tailwind,bootstrap,react,nextjs,redux,vite,flask,dotnet,express,figma,unreal,unity,bash,anaconda,regex,npm,pytorch,powershell,nodejs,postman,prisma,docker,netlify,stackoverflow,selenium,postgresql,sqlite,mysql,apple,linux,ubuntu,windows,git,replit&theme=dark)](https://skillicons.dev)
 
-<h2>GitHub Activity</h2>
+<!-- <h2>GitHub Activity</h2> -->
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-blue.svg" width="100%" alt="3D view of my GitHub contributions over the last year" />
