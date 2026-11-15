@@ -8,9 +8,9 @@
   ![Profile Views](https://komarev.com/ghpvc/?username=denver2714&color=blue)
   <br />
 
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/denver.svg" width="600" alt="denver.cpp: a short C++ program that moves a unique_ptr, typed out in an editor, then compiled and run in a terminal" />
-</div>
+</div> -->
 
 <h2>Technologies</h2>
 
