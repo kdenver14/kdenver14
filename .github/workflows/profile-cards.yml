@@ -1,0 +1,59 @@
+name: Profile cards
+
+# Generates the stats, streak and 3D contribution images used in README.md
+# and commits them to this repo, so the README never depends on a public
+# card server being up.
+
+on:
+  schedule:
+    - cron: "17 19 * * *" # once a day (time is UTC)
+  workflow_dispatch: # run by hand from the Actions tab
+  push:
+    paths: # also run whenever these two files change
+      - ".github/workflows/profile-cards.yml"
+      - ".github/profile-3d-contrib.json"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Each card keeps its last good version if its own step fails.
+      - name: Stats card
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&card_width=495&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=2196f3&ring_color=2196f3&border_color=30363d
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Streak card
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&background=0d1117&border=30363d&stroke=30363d&ring=2196f3&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 3D contribution graph
+        continue-on-error: true
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-contrib.json
+
+      - name: Commit the images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p profile profile-3d-contrib
+          git add profile profile-3d-contrib
+          git commit -m "Update profile cards" || exit 0
+          git push
