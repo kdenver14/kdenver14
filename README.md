@@ -3,14 +3,10 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Computer+Science+Student;Full-Stack+Web+Developer;Building+with+AI+%2B+Node.js;Exploring+Hugging+Face+Inference" alt="Typing SVG" />
 </h1>
 
-- 🌱 I’m currently learning **Systems Design**
 
-- 💬 Ask me about **Move Semantics, Pointer Ownership, and Memory Management**
-  
-- ⚡ Fun fact **C++ was my first programming language**
-  
 
   ![Profile Views](https://komarev.com/ghpvc/?username=denver2714&color=blue)
+  <br />
 
 <div align="center">
   <img src="./assets/denver.svg" width="600" alt="denver.cpp: a short C++ program that moves a unique_ptr, typed out in an editor, then compiled and run in a terminal" />
